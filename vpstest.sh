@@ -1,6 +1,4 @@
 #!/bin/bash
-
-
 if [[ -f /etc/redhat-release ]]; then
     release="centos"
     systemPackage="yum"
